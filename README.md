@@ -1,1 +1,248 @@
-# WURadiology.github.io
+# WURadiology.github.io[Washburn_XR_Website_Navigation_Guide_Gold_Navy.html](https://github.com/user-attachments/files/24241278/Washburn_XR_Website_Navigation_Guide_Gold_Navy.html)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Washburn XR Website Navigation Guide (Gen-Z Friendly)</title>
+</head>
+<body>
+  <!-- Paste-ready guide (Gold + Navy palette) -->
+  <div class="xr-guide">
+    <style>
+      :root{
+        --navy:#0B1F3B;
+        --navy-2:#0F2A52;
+        --gold:#D4AF37;
+        --gold-2:#F4D77A;
+        --bg:#F6F7FA;
+        --card:#FFFFFF;
+        --text:#0B1220;
+        --muted:#5B677A;
+        --border:rgba(11,31,59,.14);
+        --shadow:0 16px 40px rgba(11,31,59,.12);
+        --radius:18px;
+      }
+      .xr-guide{
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        background: radial-gradient(1200px 600px at 20% -10%, rgba(212,175,55,.25), transparent 60%),
+                    radial-gradient(900px 500px at 90% 10%, rgba(11,31,59,.18), transparent 55%),
+                    var(--bg);
+        color:var(--text);
+        padding:24px;
+        border:1px solid var(--border);
+        border-radius:var(--radius);
+      }
+      .xr-header{
+        background: linear-gradient(135deg, var(--navy), var(--navy-2));
+        color:#fff;
+        border-radius: calc(var(--radius) + 4px);
+        padding:18px 18px;
+        box-shadow: var(--shadow);
+        position:relative;
+        overflow:hidden;
+      }
+      .xr-header:after{
+        content:"";
+        position:absolute; inset:-40px -40px auto auto;
+        width:220px; height:220px;
+        background: radial-gradient(circle, rgba(244,215,122,.65), rgba(212,175,55,.0) 70%);
+        transform: rotate(15deg);
+      }
+      .xr-title{
+        margin:0;
+        font-size:22px;
+        letter-spacing:.2px;
+        position:relative;
+        z-index:1;
+      }
+      .xr-sub{
+        margin:6px 0 0;
+        color:rgba(255,255,255,.85);
+        font-size:14px;
+        line-height:1.35;
+        position:relative;
+        z-index:1;
+      }
+      .xr-link{
+        display:inline-block;
+        margin-top:10px;
+        padding:10px 12px;
+        border-radius:999px;
+        background: linear-gradient(135deg, var(--gold), var(--gold-2));
+        color:var(--navy);
+        font-weight:700;
+        text-decoration:none;
+        position:relative;
+        z-index:1;
+      }
+      .xr-grid{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap:14px;
+        margin-top:14px;
+      }
+      .xr-card{
+        background:var(--card);
+        border:1px solid var(--border);
+        border-radius:var(--radius);
+        box-shadow: 0 10px 24px rgba(11,31,59,.08);
+        padding:14px 14px 12px;
+      }
+      .xr-badge{
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        font-size:12px;
+        font-weight:800;
+        letter-spacing:.35px;
+        text-transform:uppercase;
+        color:var(--navy);
+        background: rgba(212,175,55,.22);
+        border:1px solid rgba(212,175,55,.35);
+        padding:6px 10px;
+        border-radius:999px;
+      }
+      .xr-card h3{
+        margin:10px 0 6px;
+        font-size:16px;
+        color:var(--navy);
+      }
+      .xr-card p, .xr-card li{
+        margin:0;
+        color:var(--muted);
+        line-height:1.45;
+        font-size:13.8px;
+      }
+      .xr-steps{
+        margin:10px 0 0;
+        padding-left:18px;
+      }
+      .xr-steps li{ margin:6px 0; }
+      .xr-tip{
+        margin-top:10px;
+        border-radius:14px;
+        border:1px dashed rgba(11,31,59,.25);
+        background: rgba(11,31,59,.04);
+        padding:10px 12px;
+        color:var(--navy);
+        font-size:13px;
+      }
+      .xr-tip b{ color:var(--navy); }
+      .xr-footer{
+        margin-top:14px;
+        padding:12px 14px;
+        border-radius: var(--radius);
+        border:1px solid var(--border);
+        background: linear-gradient(180deg, #fff, #fbfbfd);
+        font-size:13px;
+        color:var(--muted);
+      }
+      .xr-footer strong{ color:var(--navy); }
+      .xr-mini{
+        display:inline-block;
+        padding:2px 8px;
+        border-radius:999px;
+        border:1px solid rgba(11,31,59,.18);
+        background:#fff;
+        color:var(--navy);
+        font-weight:700;
+        font-size:12px;
+        margin:0 4px;
+        white-space:nowrap;
+      }
+    </style>
+
+    <div class="xr-header">
+      <h2 class="xr-title">Radiologic Technology Website: Quick How-To Guide</h2>
+      <p class="xr-sub">
+        Use this when you’re hunting for program info, courses, or deadlines and don’t want to click around forever.
+      </p>
+      <a class="xr-link" href="https://www.washburn.edu/academics/college-schools/applied-studies/departments/allied-health/xr/index.html" target="_blank" rel="noopener">
+        Open the XR Program Website
+      </a>
+    </div>
+
+    <div class="xr-grid">
+      <div class="xr-card">
+        <div class="xr-badge">🧭 Step 1 · Your “map”</div>
+        <h3>Find the left menu (“IN THIS SECTION”)</h3>
+        <p>
+          On the XR page, look for the left-side menu called <b>IN THIS SECTION</b>. That menu is your shortcut to everything.
+        </p>
+        <ol class="xr-steps">
+          <li>Open the XR program page.</li>
+          <li>Scroll a little until you see <b>IN THIS SECTION</b>.</li>
+          <li>Click what you need (FAQ, Application & Admission, Program Calendars, etc.).</li>
+        </ol>
+        <div class="xr-tip">
+          <b>Pro tip:</b> If you feel lost, go back to <span class="xr-mini">Home</span> (the main XR page) and use the menu again.
+        </div>
+      </div>
+
+      <div class="xr-card">
+        <div class="xr-badge">📚 Step 2 · Courses (recommended + program)</div>
+        <h3>How to find recommended courses + Radiology program courses</h3>
+        <p>
+          The easiest place to find both is the <b>FAQ</b> page, then open the <b>2 year plan</b> advising sheet PDF.
+        </p>
+        <ol class="xr-steps">
+          <li>In the left menu, click <b>FAQ</b>.</li>
+          <li>Look for the link called <b>“2 year plan”</b>.</li>
+          <li>Open/download the PDF. It includes:
+            <ul>
+              <li><b>Radiology program courses</b> (XR/AL courses and clinicals)</li>
+              <li><b>Recommended general education courses</b> (suggested options to pair with the program)</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="xr-tip">
+          <b>What you’re looking for in the PDF:</b> sections labeled <b>Required Courses Inside Department</b> and <b>Program recommendations for general education courses</b>.
+        </div>
+      </div>
+
+      <div class="xr-card">
+        <div class="xr-badge">📝 Step 3 · Applying</div>
+        <h3>Where to find application info + deadlines</h3>
+        <p>
+          Use <b>Application & Admission</b> from the left menu for the official application process details and links.
+        </p>
+        <ol class="xr-steps">
+          <li>Click <b>Application & Admission</b>.</li>
+          <li>Review requirements + timeline.</li>
+          <li>Download the application materials if posted there.</li>
+        </ol>
+      </div>
+
+      <div class="xr-card">
+        <div class="xr-badge">📅 Step 4 · Calendars & timelines</div>
+        <h3>How to find program calendars</h3>
+        <p>
+          Want to know when things actually happen (orientation, clinical timing, breaks)? Use <b>Program Calendars</b>.
+        </p>
+        <ol class="xr-steps">
+          <li>Click <b>Program Calendars</b> in the left menu.</li>
+          <li>Open the calendar that matches your cohort/year.</li>
+        </ol>
+      </div>
+
+      <div class="xr-card">
+        <div class="xr-badge">✅ Step 5 · “I just need the essentials”</div>
+        <h3>Fast-click list</h3>
+        <ul class="xr-steps">
+          <li><b>FAQ</b> → courses + 2-year plan</li>
+          <li><b>Application & Admission</b> → requirements + deadlines</li>
+          <li><b>Program Calendars</b> → cohort timelines</li>
+          <li><b>Clinical Education</b> → what clinical looks like</li>
+          <li><b>Essential Functions</b> → physical/technical expectations</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="xr-footer">
+      <strong>Reminder:</strong> When you’re choosing classes, the PDF “2 year plan” is the go-to document for
+      <span class="xr-mini">recommended gen eds</span> and <span class="xr-mini">XR program courses</span>.
+    </div>
+  </div>
+</body>
+</html>
